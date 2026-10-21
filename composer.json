@@ -1,0 +1,17 @@
+{
+    "name": "municipio-se/event-manager-extended",
+    "description": "Review workflow for Events synced via Municipio External Content",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "EventManagerExtended\\": "source/php/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
